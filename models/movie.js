@@ -13,6 +13,7 @@ const movieSchema = new mongoose.Schema({
   genre: { type: mongoose.Schema.Types.Array, required: true },
   releaseDate: { type: Date, required: true },
   posterLink: { type: String, required: true },
+  language: { type: String, required: true},
 },
 {timestamps: true});
 
